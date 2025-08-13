@@ -22,8 +22,7 @@ export default function Contact() {
     setStatus("Sending...");
 
     try {
-      await axios.post("https://madhav-backend-kvbr.onrender.com/api/contact", formData);
-
+      await axios.post("http://localhost:5000/api/contact", formData);
       setStatus("✅ Message sent successfully!");
       setFormData({ name: "", email: "", phone: "", message: "" });
     } catch (error) {
