@@ -60,7 +60,7 @@ export default function Contact() {
                 onChange={handleChange}
                 placeholder="Your name"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500 "
               />
               <input
                 type="email"
@@ -108,10 +108,12 @@ export default function Contact() {
               <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-yellow-400 via-yellow-500 to-blue-500 bg-clip-text text-transparent">
                 Our Office
               </h3>
+              <div className="text-gray-700 mb-2">
               <p>🏢 Madhav Realty</p>
               <p>📍 7X44+RM, Kamrej, Gujarat 394185</p>
               <p>📞 +91 98765 43210</p>
               <p>✉️ info@madhavrealty.com</p>
+              </div>
             </div>
 
             <iframe

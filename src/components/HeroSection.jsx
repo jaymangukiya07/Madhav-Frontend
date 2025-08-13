@@ -77,7 +77,7 @@ export default function HeroSection() {
         animate={controls}
         transition={{ duration: 1.5 }}
       >
-        <p className="text-sm md:text-lg tracking-wide uppercase mb-2 text-orange-300">
+        <p className="text-sm md:text-lg tracking-wide uppercase mb-2 text-orange-300 mt-45">
           🔑 Your Dream Home Awaits
         </p>
 
