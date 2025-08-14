@@ -31,45 +31,70 @@ export default function ShreegiHomesDetail() {
         </p>
       </section>
 
-      {/* Sizes & Pricing */}
-      <section className="container mx-auto px-4 py-12">
-        <h2 className="text-2xl font-bold mb-4">📏 Sizes & Pricing</h2>
-        <div className="overflow-x-auto">
-          <table className="w-full border border-gray-300">
-            <thead>
-              <tr className="bg-yellow-100">
-                <th className="px-4 py-2 border">Type</th>
-                <th className="px-4 py-2 border">Home Size</th>
-                <th className="px-4 py-2 border">Price (₹)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="px-4 py-2 border">GroundFloor</td>
-                <td className="px-4 py-2 border">14x40</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border">GroundFloor + 1</td>
-                <td className="px-4 py-2 border">14x40</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border">GroundFloor</td>
-                <td className="px-4 py-2 border">20x40</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border">GroundFloor + 1</td>
-                <td className="px-4 py-2 border">20x40</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-             
+      {/* Amenities */}
+      <section className="bg-gray-50 py-12">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl font-bold mb-4">✨ Amenities & Features</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <ul className="space-y-2">
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> ✨ Attractive Main Entry Gate</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 🌳 Landscaped Garden & Green Spaces</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 🚰 Underground Drainage Line </li>
               
-            </tbody>
-          </table>
+            </ul>
+            <ul className="space-y-2">
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 🛣️ RCC Concrete Roads</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 💡 Modern Street Lighting</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 🧱 Strong Compound Wall Around Project</li>
+              
+            </ul>
+          </div>
         </div>
       </section>
+
+      {/* Sizes & Pricing */}
+ <section className="container mx-auto px-4 py-12">
+  <h2 className="text-2xl font-bold mb-4">📏 Sizes</h2>
+  <div className="overflow-x-auto">
+    <table className="w-full border border-gray-300 rounded-lg shadow">
+      <thead>
+        <tr className="bg-yellow-100">
+          <th className="px-4 py-2 border">Type</th>
+          <th className="px-4 py-2 border">Home Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        {[
+          { type: "Ground Floor", size: "14x40" },
+          { type: "Ground Floor + 1", size: "14x40" },
+          { type: "Ground Floor", size: "20x40" },
+          { type: "Ground Floor + 1", size: "20x40" },
+          
+        ].map((item, index) => (
+          <tr key={index} className="hover:bg-yellow-50">
+            <td className="px-4 py-2 border">{item.type}</td>
+            <td className="px-4 py-2 border font-semibold text-yellow-700">{item.size}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {/* For More Information Section */}
+  <div className="text-center mt-6">
+    <p className="text-lg font-medium text-gray-800 mb-3">
+      📩 For More Information
+    </p>
+    <a
+      href="https://wa.me/919979231280?text=Hello%20Madhav%20Reality%2C%20I%20want%20to%20inquire%20about%20Shreeji%20Homes."
+      target="_blank"
+      rel="noopener noreferrer"
+      className=" text-white px-5 py-2 rounded-lg text-lg  border-2 border-yellow-600  inline-flex items-center gap-2"
+    >
+      💬 WhatsApp Us
+    </a>
+  </div>
+</section>
 
       {/* Location Advantages */}
       <section className="bg-gray-50 py-12">

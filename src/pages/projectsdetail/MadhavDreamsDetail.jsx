@@ -33,55 +33,62 @@ export default function MadhavDreamsDetail() {
           <h2 className="text-2xl font-bold mb-4">✨ Amenities & Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <ul className="space-y-2">
-              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> Children’s Play Area</li>
-              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> Landscaped Garden</li>
-              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> Vastu-Compliant Design</li>
-              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> Gymnasium</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> ✨ Attractive Main Entry Gate</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 🌳 Landscaped Garden & Green Spaces</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 🚰 Underground Drainage Line </li>
+              
             </ul>
             <ul className="space-y-2">
-              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 24/7 CCTV Surveillance</li>
-              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> Animated kitchen</li>
-              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> Ample Parking Space</li>
-              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> High Quality Flooring</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 🛣️ RCC Concrete Roads</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 💡 Modern Street Lighting</li>
+              <li><FaCheckCircle className="inline-block text-yellow-600 mr-2" /> 🧱 Strong Compound Wall Around Project</li>
+              
             </ul>
           </div>
         </div>
       </section>
 
       {/* Sizes & Pricing */}
-      <section className="container mx-auto px-4 py-12">
-        <h2 className="text-2xl font-bold mb-4">📏 Sizes & Pricing</h2>
-        <div className="overflow-x-auto">
-          <table className="w-full border border-gray-300">
-            <thead>
-              <tr className="bg-yellow-100">
-                <th className="px-4 py-2 border">Type</th>
-                <th className="px-4 py-2 border">Plot Size</th>
-                <th className="px-4 py-2 border">Price (₹)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="px-4 py-2 border">Open Plot</td>
-                <td className="px-4 py-2 border">12x39</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border">Open Plot</td>
-                <td className="px-4 py-2 border">13x39</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border">Open Plot</td>
-                <td className="px-4 py-2 border">18x39</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-              
-              
-            </tbody>
-          </table>
-        </div>
-      </section>
+ <section className="container mx-auto px-4 py-12">
+  <h2 className="text-2xl font-bold mb-4">📏 Sizes</h2>
+  <div className="overflow-x-auto">
+    <table className="w-full border border-gray-300 rounded-lg shadow">
+      <thead>
+        <tr className="bg-yellow-100">
+          <th className="px-4 py-2 border">Type</th>
+          <th className="px-4 py-2 border">Plot Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        {[
+          { type: "Open Plot", size: "12x39" },
+          { type: "Open Plot", size: "13x39" },
+          { type: "Open Plot", size: "18x39" },
+        ].map((item, index) => (
+          <tr key={index} className="hover:bg-yellow-50">
+            <td className="px-4 py-2 border">{item.type}</td>
+            <td className="px-4 py-2 border font-semibold text-yellow-700">{item.size}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {/* For More Information Section */}
+  <div className="text-center mt-6">
+    <p className="text-lg font-medium text-gray-800 mb-3">
+      📩 For More Information
+    </p>
+    <a
+      href="https://wa.me/919586640380?text=Hello%20Madhav%20Reality%2C%20I%20want%20to%20inquire%20about%20Madhav%20Dreams."
+      target="_blank"
+      rel="noopener noreferrer"
+      className=" text-white px-5 py-2 rounded-lg text-lg  border-2 border-yellow-600  inline-flex items-center gap-2"
+    >
+      💬 WhatsApp Us
+    </a>
+  </div>
+</section>
 
       {/* Location Advantages */}
       <section className="bg-gray-50 py-12">

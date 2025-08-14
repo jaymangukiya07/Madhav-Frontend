@@ -91,7 +91,7 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          Proudly Serving Families Since 2016 🏘️
+          Proudly Serving Families Since 2012 🏘️
         </motion.p>
 
         <p className="text-base sm:text-lg md:text-xl text-orange-100 font-semibold mb-6 px-2">
@@ -100,9 +100,9 @@ export default function HeroSection() {
 
         {/* Highlights */}
         <div className="space-y-1 text-orange-200 text-sm">
-          <p>⭐ Rated 4.9/5 by 500+ Happy Families</p>
+          
           <p>🏆 Gujarat's Most Trusted Real Estate Partner</p>
-          <p>🏅 10+ Years of Excellence in Real Estate</p>
+          <p>🏅 12+ Years of Excellence in Real Estate</p>
           <p>🏠 Over 1000+ Homes Built with Love</p>
           <p>🏡 Your Dream Home is Just a Click Away!</p>
           <p>🏘️ Transforming Spaces, Enriching Lives</p>

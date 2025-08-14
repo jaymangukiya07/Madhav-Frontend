@@ -12,7 +12,7 @@ export default function AboutPreview() {
           </h2>
           <p className="text-gray-700 mb-4">
             At <strong>Madhav Reality</strong>, we specialize in premium residential villas and bungalows.
-            With 15+ years of experience, we bring clients’ dreams to life by combining modern design with trust and quality craftsmanship.
+            With 12+ years of experience, we bring clients’ dreams to life by combining modern design with trust and quality craftsmanship.
           </p>
           <p className="text-gray-600">
             Our commitment to excellence ensures every project is crafted with precision, innovation, and unmatched service.

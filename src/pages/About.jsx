@@ -29,7 +29,7 @@ export default function About() {
               transition={{ delay: 0.5, duration: 1 }}
               className="mt-4 text-lg md:text-xl"
             >
-              Building dreams since 2016
+              Building dreams since 2012, we specialize in premium residential villas and bungalows across Gujarat.
             </motion.p>
           </div>
         </div>
@@ -54,10 +54,8 @@ export default function About() {
           >
             <h2 className="text-3xl font-bold mb-4 text-gray-800">Our <span className="text-orange-600">Story</span></h2>
             <p className="text-gray-700 leading-relaxed">
-              Founded in 2008, Madhav Infra has grown from a small local real estate agency
-              to one of Gujarat's most trusted property consultants. What began as a family
-              business in Ahmedabad has now expanded across major cities, helping thousands
-              of families find their perfect homes.
+               Started in 2012 with just two houses, a small budget, and only a few trusted investors, Madhav Realty began as a simple dream to connect people with their ideal homes.<br />
+               Our journey proves that with vision, trust, and hard work, even the smallest beginnings can lead to the grandest destinations.
             </p>
           </motion.div>
         </div>
@@ -80,8 +78,7 @@ export default function About() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="max-w-3xl mx-auto text-gray-700 leading-relaxed"
           >
-            We’re committed to transparent, ethical real estate practices that put our clients first.
-            Our team combines local market expertise with modern technology to deliver exceptional service.
+            Deliver dream homes to 5,000+ families by 2030, while shaping the future with iconic high-rise and commercial projects.
           </motion.p>
         </div>
       </section>
@@ -112,9 +109,9 @@ export default function About() {
       <section className="bg-gray-100 py-16">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-center">
           {[
-            { value: "500+", label: "Happy Clients" },
-            { value: "15+", label: "Years in Business" },
-            { value: "4", label: "Cities Across Gujarat" }
+            { value: "1000+", label: "Happy Clients" },
+            { value: "12+", label: "Years in Business" },
+            { value: "4+", label: "Areas Across Surat" }
           ].map((item, idx) => (
             <motion.div
               key={idx}
@@ -131,27 +128,31 @@ export default function About() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="bg-yellow-100 py-16">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <motion.h2
-            initial={{ opacity: 0, y: -50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-3xl font-bold mb-6 text-gray-900"
-          >
-            Why Choose Us?
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            className="max-w-3xl mx-auto text-gray-700 leading-relaxed"
-          >
-            Unlike typical brokers, we provide end-to-end support including legal verification,
-            price negotiation, and after-sale service.
-          </motion.p>
-        </div>
-      </section>
+<section className="bg-yellow-100 py-16">
+  <div className="max-w-6xl mx-auto px-6 text-center">
+    <motion.h2
+      initial={{ opacity: 0, y: -50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="text-3xl font-bold mb-6 text-gray-900"
+    >
+      Why Choose Us?
+    </motion.h2>
+    <motion.p
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.3, duration: 0.8 }}
+      className="max-w-3xl mx-auto text-gray-700 leading-relaxed"
+    >
+      At Madhav Realty, quality is our foundation. Every project is built under the
+      direct supervision of experienced civil engineers.  
+      Our commitment goes beyond sales — we provide transparent guidance, 
+      attentive customer service, and lasting relationships that continue well after 
+      you get your keys.
+    </motion.p>
+  </div>
+</section>
+
 
     </div>
     </PageTransition>

@@ -77,38 +77,49 @@ export default function ShreeRamParkDetail() {
         </div>
       </section>
 
-      {/* Sizes & Pricing */}
-      <section className="container mx-auto px-4 py-12">
-        <h2 className="text-2xl font-bold mb-4">📏 Plot Sizes & Pricing</h2>
-        <div className="overflow-x-auto">
-          <table className="w-full border border-gray-300">
-            <thead>
-              <tr className="bg-yellow-100">
-                <th className="px-4 py-2 border">Type</th>
-                <th className="px-4 py-2 border">Plot Size</th>
-                <th className="px-4 py-2 border">Price (₹)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="px-4 py-2 border">Industrial Plot</td>
-                <td className="px-4 py-2 border">17X105</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border">Industrial Plot</td>
-                <td className="px-4 py-2 border">1500 sq. yards</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border">Industrial Plot</td>
-                <td className="px-4 py-2 border">5000 sq. ft.</td>
-                <td className="px-4 py-2 border">On Request</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+       {/* Sizes & Pricing */}
+ <section className="container mx-auto px-4 py-12">
+  <h2 className="text-2xl font-bold mb-4">📏 Sizes</h2>
+  <div className="overflow-x-auto">
+    <table className="w-full border border-gray-300 rounded-lg shadow">
+      <thead>
+        <tr className="bg-yellow-100">
+          <th className="px-4 py-2 border">Type</th>
+          <th className="px-4 py-2 border">Home Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        {[
+          { type: "Industrial Plot", size: "17x105" },
+          
+          
+        ].map((item, index) => (
+          <tr key={index} className="hover:bg-yellow-50">
+            <td className="px-4 py-2 border">{item.type}</td>
+            <td className="px-4 py-2 border font-semibold text-yellow-700">{item.size}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {/* For More Information Section */}
+  <div className="text-center mt-6">
+    <p className="text-lg font-medium text-gray-800 mb-3">
+      📩 For More Information
+    </p>
+    <a
+      href="https://wa.me/919979231280?text=Hello%20Madhav%20Reality%2C%20I%20want%20to%20inquire%20about%20Shreeram%20Park."
+      target="_blank"
+      rel="noopener noreferrer"
+      className=" text-white px-5 py-2 rounded-lg text-lg  border-2 border-yellow-600  inline-flex items-center gap-2"
+    >
+      💬 WhatsApp Us
+    </a>
+  </div>
+</section>
+
+      
 
       {/* Location Advantages */}
       <section className="bg-gray-50 py-12">

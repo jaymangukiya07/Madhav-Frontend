@@ -12,7 +12,7 @@ const teamMembers = [
   },
   {
     name: "Bharat Bhai Sutariya",
-    role: "Sales & Marketing Director 📈",
+    role: "Managing Director 🏛️ ",
     experience:
       "15+ years in real estate marketing and sales, building strong client networks and driving high-value property deals.",
     image: "./bharatbhai.jpg",
@@ -39,7 +39,7 @@ const teamMembers = [
     role: "Finance Director 💰",
     experience:
       "10+ years managing company accounts, handling budgets, tracking expenses, managing payroll, overseeing investments, and ensuring accurate financial reporting.",
-    image: "./priyaben.jpg",
+    image: "./jatinbhai.jpg",
     bg: "bg-green-50",
   },
   {
@@ -47,7 +47,7 @@ const teamMembers = [
     role: "Project Manager",
     experience:
       "Skilled in managing on-site operations, coordinating with contractors, and delivering projects efficiently.",
-    image: "./mahendrahbhai.jpg",
+    image: "./mahendrabhai.jpg",
     bg: "bg-purple-50",
   },
 ];

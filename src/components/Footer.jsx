@@ -35,14 +35,15 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-3">Contact Us</h4>
             <p className="text-sm">
-              270,rajeswari recidency, <br />
-              opp. shivam complex, <br /> 
-              near shivam party plot,canal road kamrej surat <br />
+              Location : Nidhivan by Giriraj <br />
+              opposite Nidhivan chowkdi, near J V villa, Kamrej, Gujarat 394185 <br />
+              
+              
             </p>
             <p className="mt-3 text-sm">
               📞 +91 9979231280 / +91 9586640380
               <br />
-              ☎️ +91 2266890000
+             
             </p>
           </div>
 

@@ -22,8 +22,8 @@ export default function CurrentNewsPreview() {
     <section className="py-12 px-6 md:px-20 bg-amber-50">
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold mb-10">
-        <span className="text-gray-800 tracking-widest">CURRENT </span>
-        <span className="text-orange-600 tracking-widest">NEWS</span>
+        <span className="text-gray-800 tracking-widest">COMING </span>
+        <span className="text-orange-600 tracking-widest">SOON</span>
       </h2>
 
       {/* News grid */}

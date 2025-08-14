@@ -5,10 +5,10 @@ import { useInView } from "react-intersection-observer";
 
 export default function ProjectCountPreview() {
   const counters = [
-    { title: "Upcoming Projects", target: 10, color: "text-blue-600" },
-    { title: "Ongoing Projects", target: 12, color: "text-orange-600" },
-    { title: "Completed Projects", target: 60, color: "text-green-600" },
-    { title: "happy Clients", target: 500, color: "text-purple-600" },
+    { title: "Upcoming Projects", target: 4, color: "text-blue-600" },
+    { title: "Ongoing Projects", target: 13, color: "text-orange-600" },
+    { title: "Completed Projects", target: 40, color: "text-green-600" },
+    { title: "happy Clients", target: 1000, color: "text-purple-600" },
   ];
 
   const [counts, setCounts] = useState(counters.map(() => 0));
@@ -37,7 +37,7 @@ export default function ProjectCountPreview() {
           if (current >= counter.target) {
             clearInterval(timer);
           }
-        }, 0.05); // Adjust speed of counting
+        }, 0.001); // Adjust speed of counting
       });
     }
   }, [inView, started]);
