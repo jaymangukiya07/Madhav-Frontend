@@ -45,7 +45,7 @@ export default function ProjectCountPreview() {
   return (
     <div ref={ref} className="bg-gray-50 py-12">
          <div className="md:w-1/2">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800 text-center md:text-left">
             Projects <span className="text-orange-500">Count</span>
           </h2>
           </div>
