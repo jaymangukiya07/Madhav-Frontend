@@ -88,7 +88,7 @@ export default function Team() {
               <img
             src={member.image}
             alt={member.name}
-            className="w-80 h-100 object-cover rounded-3xl border-4 border-orange-500 shadow-[0_8px_30px_rgba(0,0,0,0.3)] transform hover:scale-105 hover:rotate-1 transition-all duration-500 ease-in-out"
+            className="w-80 h-100 object-cover rounded-3xl border-4 border-orange-200 shadow-[0_8px_30px_rgba(0,0,0,0.3)] transform hover:scale-105 hover:rotate-1 transition-all duration-500 ease-in-out"
             />
 
             </div>
