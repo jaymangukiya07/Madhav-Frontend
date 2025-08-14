@@ -27,6 +27,13 @@
 .bubble:nth-child(9) { width: 45px; height: 45px; left: 75%; animation-duration: 19s; }
 .bubble:nth-child(10) { width: 65px; height: 65px; left: 40%; animation-duration: 23s; }
 
+input::placeholder,
+textarea::placeholder {
+  color: #4b5563; /* Tailwind gray-700 */
+  opacity: 1;     /* Ensure full opacity */
+}
+
+
 @keyframes rise {
   0% {
     transform: translateY(0) scale(1);
