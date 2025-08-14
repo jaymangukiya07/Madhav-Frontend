@@ -56,7 +56,7 @@ export default function Team() {
   return (
     <PageTransition>
     <section>
-      <h2 className="text-3xl md:text-4xl font-bold text-center my-12 mt-40">
+      <h2 className="text-3xl md:text-4xl font-bold text-center my-12 mt-40 text-gray-800">
         Meet Our <span className="text-orange-600">Team</span>
       </h2>
 
