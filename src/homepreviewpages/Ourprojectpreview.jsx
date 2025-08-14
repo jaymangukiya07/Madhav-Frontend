@@ -73,7 +73,7 @@ export default function OurProjectPreview() {
               <img
                 src={project.img}
                 alt={project.title}
-                className="w-full h-97 sm:h-64 md:h-72 object-cover"
+                className="w-full h-auto sm:h-64 md:h-72 object-cover"
               />
               <div className="p-4 sm:p-6 flex flex-col flex-grow">
                 <h3 className="text-lg sm:text-xl font-semibold mb-2">{project.title}</h3>

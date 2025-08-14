@@ -49,9 +49,9 @@ export default function OurProjects() {
                   <img
                     src={project.img}
                     alt={project.title}
-                    className="w-full h-97 object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute bottom-4 left-4 text-white text-xl font-semibold drop-shadow-lg">
+                  <div className="absolute bottom-4 left-4 text-gray-900 text-xl font-semibold drop-shadow-lg">
                     {project.title}
                   </div>
                 </Link>
