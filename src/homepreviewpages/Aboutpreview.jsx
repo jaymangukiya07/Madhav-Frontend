@@ -7,11 +7,11 @@ export default function AboutPreview() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
         {/* Left Content */}
         <div className="md:w-1/2">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800 text-center md:text-left">
             About <span className="text-orange-500">Us</span>
           </h2>
           <p className="text-gray-700 mb-4">
-            At <strong>Madhav Infra</strong>, we specialize in premium residential villas and bungalows.
+            At <strong>Madhav Reality</strong>, we specialize in premium residential villas and bungalows.
             With 15+ years of experience, we bring clients’ dreams to life by combining modern design with trust and quality craftsmanship.
           </p>
           <p className="text-gray-600">
