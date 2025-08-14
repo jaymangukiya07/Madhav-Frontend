@@ -102,7 +102,7 @@ export default function HeroSection() {
         <div className="space-y-1 text-orange-200 text-sm">
           <p>⭐ Rated 4.9/5 by 500+ Happy Families</p>
           <p>🏆 Gujarat's Most Trusted Real Estate Partner</p>
-          <p>🏅 15+ Years of Excellence in Real Estate</p>
+          <p>🏅 10+ Years of Excellence in Real Estate</p>
           <p>🏠 Over 1000+ Homes Built with Love</p>
           <p>🏡 Your Dream Home is Just a Click Away!</p>
           <p>🏘️ Transforming Spaces, Enriching Lives</p>
