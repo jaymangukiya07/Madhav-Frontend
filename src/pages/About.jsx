@@ -6,7 +6,7 @@ import PageTransition from "../components/PageTransition"; // Importing PageTran
 export default function About() {
   return (
     <PageTransition>
-    <div className="overflow-hidden">
+    <div className="overflow-hidden bg-amber-50">
 
       {/* Hero Section */}
       <section className="relative bg-cover bg-center text-white mt-23"
@@ -137,7 +137,7 @@ export default function About() {
             initial={{ opacity: 0, y: -50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-3xl font-bold mb-6"
+            className="text-3xl font-bold mb-6 text-gray-900"
           >
             Why Choose Us?
           </motion.h2>

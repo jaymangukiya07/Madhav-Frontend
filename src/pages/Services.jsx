@@ -70,7 +70,7 @@ export default function Services() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               {service.icon}
-              <h3 className="mt-4 text-xl font-semibold">{service.title}</h3>
+              <h3 className="mt-4 text-xl font-semibold text-gray-800">{service.title}</h3>
               <p className="text-gray-600 mt-2">{service.description}</p>
             </motion.div>
           ))}

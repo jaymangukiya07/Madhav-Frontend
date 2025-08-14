@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <PageTransition>
-    <div className="w-full mt-23">
+    <div className="w-full mt-23 bg-amber-50">
       <HeroSection />
       <AboutPreview />
       <OurProjectPreview />
