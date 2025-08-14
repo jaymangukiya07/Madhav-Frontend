@@ -60,7 +60,7 @@ export default function Contact() {
                 onChange={handleChange}
                 placeholder="Your name"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500 "
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500 text-gray-700"
               />
               <input
                 type="email"
@@ -69,7 +69,7 @@ export default function Contact() {
                 onChange={handleChange}
                 placeholder="Your email"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500 text-gray-700"
               />
               <input
                 type="tel"
@@ -77,7 +77,7 @@ export default function Contact() {
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder="Your phone number"
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500 text-gray-700"
               />
               <textarea
                 name="message"
@@ -85,8 +85,8 @@ export default function Contact() {
                 onChange={handleChange}
                 placeholder="Your message"
                 required
-                rows="4"
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500"
+                rows="8"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-500 text-gray-700"
               ></textarea>
 
               <button
