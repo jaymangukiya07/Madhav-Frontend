@@ -22,7 +22,7 @@ export default function HomePage() {
 
 
       {/* Arjo-Marjo Section */}
-      <h2 className="text-3xl md:text-4xl font-bold mb-10">
+      <h2 className="text-3xl md:text-4xl font-bold mb-10 bg-amber-50 text-center">
         <span className="text-gray-800">Arjo - Marjo </span>
         <span className="text-orange-600 tracking-widest">Service</span>
       </h2>
