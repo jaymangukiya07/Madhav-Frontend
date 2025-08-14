@@ -36,7 +36,7 @@ export default function HomePage() {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-3xl font-bold mb-4">આરજો - મારજો સેવા</h2>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">આરજો - મારજો સેવા</h2>
             <p className="text-gray-700 mb-4">
               તમારી જૂની મિલકત અમને આપો અને અમારા પ્રોજેક્ટમાં તમારું નવું સપનાનું
               ઘર મેળવો. સરળ પ્રક્રિયા, પારદર્શક સોદો અને સમયસર હેન્ડઓવર સાથે

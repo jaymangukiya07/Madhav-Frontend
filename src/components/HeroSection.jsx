@@ -91,7 +91,7 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          Proudly Serving Families Since 2005 🏘️
+          Proudly Serving Families Since 2016 🏘️
         </motion.p>
 
         <p className="text-base sm:text-lg md:text-xl text-orange-100 font-semibold mb-6 px-2">

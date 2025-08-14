@@ -29,7 +29,7 @@ export default function About() {
               transition={{ delay: 0.5, duration: 1 }}
               className="mt-4 text-lg md:text-xl"
             >
-              Building dreams since 2008
+              Building dreams since 2016
             </motion.p>
           </div>
         </div>
