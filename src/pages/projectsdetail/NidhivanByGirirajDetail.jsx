@@ -3,15 +3,15 @@ import { FaMapMarkerAlt, FaDownload, FaCheckCircle } from "react-icons/fa";
 import Gallery from "../../components/Gallery"; // Importing Gallery component
 import PageTransition from "../../components/PageTransition";
 export default function NidhivanByGirirajDetail() {
-    const galleryImages = ["/nidhivanbygirirajgalleryimage/image1.jpg",
-                            "/nidhivanbygirirajgalleryimage/image2.jpg", 
-                            "/nidhivanbygirirajgalleryimage/image3.jpg",
-                            "/nidhivanbygirirajgalleryimage/image4.jpg",
-                            "/nidhivanbygirirajgalleryimage/image5.jpg",
-                            "/nidhivanbygirirajgalleryimage/image6.jpg",
-                            "/nidhivanbygirirajgalleryimage/image7.jpg",
-                            "/nidhivanbygirirajgalleryimage/image8.jpg",
-                           ];
+    const projectMedia = [
+  { type: "image", src: "/nidhivanbygirirajgallery/image1.jpg" },
+  { type: "image", src: "/nidhivanbygirirajgallery/image2.jpg" },
+  { type: "image", src: "/nidhivanbygirirajgallery/image3.jpg" },
+  { type: "image", src: "/nidhivanbygirirajgallery/image4.jpg" },
+  { type: "image", src: "/nidhivanbygirirajgallery/image5.jpg" },
+  { type: "video", src: "/nidhivanbygirirajgallery/video1.mp4" },
+  
+];
 
   return (
     <PageTransition>
@@ -126,7 +126,7 @@ export default function NidhivanByGirirajDetail() {
       </section>
       
         {/* Gallery Section */}
-        <Gallery images={galleryImages} />
+        <Gallery media={projectMedia} />
 
       {/* Call to Action */}
       <section className="text-center py-12 flex flex-col items-center gap-4">
