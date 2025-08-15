@@ -76,7 +76,7 @@ export default function Contact() {
               value={formData[field]}
               onChange={handleChange}
               required
-              className="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-yellow-400 outline-none transition-all placeholder:text-gray-800"
+              className=" text-gray-800 w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-yellow-400 outline-none transition-all placeholder:text-gray-800"
               whileFocus={{ scale: 1.02 }}
             />
           ))}
@@ -88,7 +88,7 @@ export default function Contact() {
             onChange={handleChange}
             rows="4"
             required
-            className="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-yellow-400 outline-none transition-all placeholder:text-gray-800"
+            className=" text-gray-800 w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-yellow-400 outline-none transition-all placeholder:text-gray-800"
             whileFocus={{ scale: 1.02 }}
           ></motion.textarea>
 
